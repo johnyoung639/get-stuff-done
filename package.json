@@ -1,0 +1,16 @@
+{
+  "name": "get-stuff-done",
+  "version": "1.0.0",
+  "description": "Chores, extras and a laces guide for the kids. Self-hosted.",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node --no-warnings=ExperimentalWarning server.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

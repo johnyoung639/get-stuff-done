@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#6B3FA0">
+  <title>Get Stuff Done</title>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="splashing">
+  <template id="logo-tpl">
+    <div class="logo" aria-label="Get Stuff Done">
+      <span class="w w-get">Get</span>
+      <span class="w w-shit">
+        <span class="shit-text">Shit</span>
+        <svg class="scribble" viewBox="0 0 200 100" preserveAspectRatio="none" aria-hidden="true">
+          <path pathLength="1" d="M4 62 C30 40 40 30 52 28 L22 78 L92 24 L60 82 L134 26 L104 80 L172 30 L146 74 L198 46"/>
+        </svg>
+        <span class="stuff">Stuff</span>
+      </span>
+      <span class="w w-done">Done</span>
+    </div>
+  </template>
+
+  <div id="splash" aria-hidden="true"></div>
+
+  <header id="top">
+    <div id="header-logo"></div>
+    <div class="chips">
+      <div class="chip" id="chip-stars" title="Total stars">⭐ <b id="total-stars">0</b></div>
+      <div class="chip" id="chip-streak" title="Day streak">🔥 <b id="streak">0</b></div>
+    </div>
+  </header>
+
+  <main id="view"></main>
+
+  <nav id="tabs">
+    <a href="#/today" data-tab="today"><span class="ti">✅</span><span>Today</span></a>
+    <a href="#/extras" data-tab="extras"><span class="ti">🦸</span><span>Extras</span></a>
+    <a href="#/laces" data-tab="laces"><span class="ti">👟</span><span>Laces</span></a>
+    <a href="#/parents" data-tab="parents" class="tab-parents"><span class="ti">🔒</span><span>Parents</span></a>
+  </nav>
+
+  <div id="sheet-backdrop" hidden></div>
+  <div id="sheet" role="dialog" aria-modal="true" hidden></div>
+  <div id="celebrate" hidden></div>
+  <div id="fx" aria-hidden="true"></div>
+  <div id="toast" role="status" hidden></div>
+
+  <script src="/laces.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

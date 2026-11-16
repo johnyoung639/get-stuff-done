@@ -1,0 +1,17 @@
+name,emoji,slot,days,due_time,remind_before_min,stars,extra
+Get dressed,👕,morning,daily,07:45,10,2,no
+Make bed,🛏️,morning,daily,08:00,15,2,no
+Brush teeth (morning),🪥,morning,daily,08:10,10,1,no
+Pack school bag,🎒,morning,weekdays,08:15,15,2,no
+Hoover bedroom,🧹,morning,weekends,11:00,30,3,no
+Homework or reading,📚,afternoon,weekdays,17:00,15,3,no
+Feed the pet,🐾,afternoon,daily,17:30,15,2,no
+Lay the table,🍴,evening,daily,18:00,10,2,no
+Tidy bedroom,🧸,evening,daily,19:00,15,3,no
+Shower or bath,🛁,evening,daily,19:15,15,2,no
+Brush teeth (night),🪥,evening,daily,19:30,10,1,no
+Empty the dishwasher,🍽️,,,,,5,yes
+Help with the washing,🧺,,,,,4,yes
+Take the bins out,🗑️,,,,,4,yes
+Wash the car,🚗,,,,,8,yes
+Help cook dinner,🍳,,,,,5,yes
